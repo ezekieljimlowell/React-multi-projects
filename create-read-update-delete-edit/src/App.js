@@ -1,12 +1,12 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FormWrapper from "./Components/FormWrapper";
+import TodoAddSection from "./Components/TodoAddSection";
 
 function App() {
   return (
     <div className="App">
-      <h1>Todo application</h1>
-      <FormWrapper />
+      <h1 className="mb-4">Todo application</h1>
+      <TodoAddSection />
     </div>
   );
 }
